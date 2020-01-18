@@ -7,10 +7,12 @@ type Props = {};
 const Container = styled.div`
   display: flex;
   align-items: center;
+  background: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 `;
 
 const Name = styled.div`
-  /* font-family: "Calistoga"; */
+  font-size: 14px;
   font-weight: 900;
   color: ${oc.gray[8]};
 `;
